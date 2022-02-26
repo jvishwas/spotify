@@ -1,0 +1,75 @@
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  nav {
+    width: 100%;
+    margin: 0px 0px;
+  }
+  .container {
+    width: 90%;
+    margin: 0px 0px;
+  }
+  nav ul .navigator {
+    display: none;
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav ul img {
+    border-radius: 50%;
+  }
+
+  .songList {
+    display: flex;
+    flex-direction: column;
+  }
+  .songItem {
+    width: 90%;
+    height: 30px;
+    font-size: 0.8rem;
+  }
+  .songItem img {
+    width: 10%;
+    height: 80%;
+  }
+  .songItem .songListPaly {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+  }
+
+  .bottom {
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+  }
+  .bottom .icons i {
+    font-size: 1.2rem;
+  }
+
+  .bottom .songInfo {
+    margin-top: 0.5rem;
+    width: 30%;
+
+    font-size: 0.8rem;
+  }
+  .bottom .songInfo img {
+    width: 30px;
+    height: 30px;
+  }
+  .bottom .songInfo span {
+    padding-left: 0px;
+  }
+  .songInfo #masterSongName {
+    padding: 5px;
+  }
+}
